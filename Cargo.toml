@@ -9,7 +9,7 @@ repository = "https://github.com/leplatrem/python-canonicaljson-rs/"
 
 [lib]
 name = "canonicaljson"  # python package name
-crate-type = ["cdylib", "lib"]
+crate-type = ["cdylib", "dylib"]
 
 [dependencies]
 serde = "1.0"
