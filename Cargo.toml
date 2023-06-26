@@ -1,15 +1,11 @@
 [package]
-name = "canonicaljson-rs"
+name = "canonicaljson"
 version = "0.5.0"
 authors = ["Mathieu Leplatre <mathieu@mozilla.com>"]
 edition = "2018"
 description = "Python bindings for canonical_json"
 license = "Mozilla Public License 2.0"
 repository = "https://github.com/leplatrem/python-canonicaljson-rs/"
-
-[lib]
-name = "canonicaljson"  # python package name
-crate-type = ["cdylib", "dylib"]
 
 [dependencies]
 serde = "1.0"
